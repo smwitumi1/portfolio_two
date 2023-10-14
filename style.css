@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap');
+
+html *{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafb;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: red;
+
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 50px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* Style for each column */
+  .column {
+    width: 50%; /* Make each column take up half of the container */
+    float: left; /* Float the columns side by side */
+    box-sizing: border-box; /* Include padding and border in the box's total width and height */
+    padding: 20px;
+    background-color: #ffffff; /* White background for columns */
+  }
+  .column img{
+    width: inherit;
+    height: inherit;
+  }
+  .socials{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 100px;
+
+  }
+  .social-buttons{
+    height: 100px;
+    margin-left: 50px;
+  }
+ 
